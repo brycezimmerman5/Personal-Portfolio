@@ -217,6 +217,6 @@ projectImages.forEach(image => {
 // ===================================
 console.log('%c👋 Hello! Interested in my work?', 'color: #64ffda; font-size: 20px; font-weight: bold;');
 console.log('%cLet\'s connect!', 'color: #8892b0; font-size: 14px;');
-console.log('%cGitHub: https://github.com/yourusername', 'color: #64ffda; font-size: 12px;');
-console.log('%cEmail: your.email@example.com', 'color: #64ffda; font-size: 12px;');
+console.log('%cGitHub: https://github.com/brycezimmerman5', 'color: #64ffda; font-size: 12px;');
+console.log('%cEmail: bryce.c.zimmerman@gmail.com', 'color: #64ffda; font-size: 12px;');
 

@@ -1,159 +1,72 @@
-# Personal Portfolio Website
+# Portfolio Website
 
-A stunning, modern, and professional portfolio website for computer science professionals. Built with pure HTML, CSS, and JavaScript - no frameworks required.
+My personal portfolio website showcasing my projects, skills, and experience as a computer science professional.
 
-## ✨ Features
+## About This Project
 
-- **Modern Design**: Clean, professional, and visually appealing interface
-- **Fully Responsive**: Works seamlessly on desktop, tablet, and mobile devices
-- **Smooth Animations**: Engaging animations and transitions throughout
-- **Easy Customization**: Simple placeholder replacement system
-- **SEO Friendly**: Semantic HTML structure
-- **Fast Loading**: Optimized for performance
-- **Accessibility**: ARIA labels and keyboard navigation support
+I built this portfolio from scratch to demonstrate my capabilities in web development and to showcase the work I'm most proud of. The site features a clean, modern design with smooth animations and is fully responsive across all devices.
 
-## 🚀 Getting Started
+The codebase is vanilla HTML, CSS, and JavaScript - no frameworks. I wanted to keep it lightweight and fast while still creating an engaging user experience.
 
-1. **Clone or download** this repository
-2. **Open `index.html`** in your browser
-3. **Customize** the content with your information (see customization guide below)
+## Technologies Used
 
-## 📝 Customization Guide
+- HTML5
+- CSS3 (with CSS Variables for theming)
+- Vanilla JavaScript
+- Font Awesome for icons
+- Google Fonts (Inter & JetBrains Mono)
 
-### 1. Personal Information
+## Features
 
-#### Navigation Brand
-```html
-<!-- Line 18 in index.html -->
-<a href="#home">&lt;YourName /&gt;</a>
-```
+- Responsive design that works on mobile, tablet, and desktop
+- Smooth scroll animations and transitions
+- Typing animation effect for dynamic text
+- Interactive project showcase with hover effects
+- Clean, professional aesthetic
+- Fast loading times with optimized assets
 
-#### Hero Section
-```html
-<!-- Lines 34-38 in index.html -->
-<p class="hero-greeting">Hello, I'm</p>
-<h1 class="hero-name">
-    <span class="name-first">Your</span>
-    <span class="name-last">Name</span>
-</h1>
-```
+## Projects Featured
 
-#### Typing Animation Titles
-Edit the `titles` array in `script.js` (line 40-45):
-```javascript
-const titles = [
-    'Full Stack Developer',
-    'Software Engineer',
-    'Your Custom Title',
-    'Another Title'
-];
-```
+The portfolio includes placeholders for three featured projects. Each project card includes:
+- Project screenshots
+- GitHub repository links
+- Live demo links (when available)
+- Technology stack used
+- Project descriptions
 
-#### Social Media Links
-Update all social media links in the hero section (lines 47-60) and contact section (lines 302-315):
-```html
-<a href="https://github.com/yourusername" target="_blank">...</a>
-<a href="https://linkedin.com/in/yourusername" target="_blank">...</a>
-<a href="mailto:your.email@example.com">...</a>
-```
+Update these with your actual projects by modifying the project cards in `index.html`.
 
-### 2. About Section
+## Local Development
 
-#### Profile Image
-Replace the placeholder image URL (line 100):
-```html
-<img src="path/to/your/photo.jpg" alt="Profile" id="profileImage">
-```
+To view the site locally:
 
-#### About Text
-Update the paragraphs in the about section (lines 88-103) with your own story and technologies.
+1. Clone this repository
+2. Open `index.html` in your web browser
+3. That's it! No build process required.
 
-### 3. Projects Section
+## Deployment
 
-For each project card, replace:
+The site can be deployed to any static hosting service:
+- GitHub Pages
+- Netlify
+- Vercel
+- AWS S3
+- Any web server
 
-#### Project Image (line 140, 171, 202)
-```html
-<img src="path/to/project/screenshot.jpg" alt="Project Name">
-```
+Simply upload the files and serve `index.html` as the entry point.
 
-#### Project Links
-- **GitHub Link** (lines 142, 173, 204):
-```html
-<a href="https://github.com/yourusername/projectname" target="_blank">...</a>
-```
+## Customization
 
-- **Live Demo Link** (lines 145, 176, 207):
-```html
-<a href="https://yourproject-demo.com" target="_blank">...</a>
-```
+All personal information, project details, and links are in `index.html`. The styling can be customized via CSS variables in `styles.css`. The main color scheme and other design tokens are defined at the top of the CSS file for easy theming.
 
-#### Project Details
-Update for each project:
-- **Title** (lines 152, 183, 214)
-- **Description** (lines 154-158, 185-189, 216-220)
-- **Technologies** (lines 159-164, 190-195, 221-226)
+## Contact
 
-### 4. Skills Section
+Feel free to reach out if you have any questions or opportunities:
 
-Add or remove skills by modifying the skill items in each category (lines 125-215). Each skill item follows this pattern:
-```html
-<div class="skill-item">
-    <i class="fab fa-icon-name"></i>
-    <span>Skill Name</span>
-</div>
-```
-
-**Available Font Awesome icons**: Visit [Font Awesome](https://fontawesome.com/icons) to find icons for your technologies.
-
-### 5. Color Scheme
-
-To customize colors, edit the CSS variables in `styles.css` (lines 6-17):
-```css
-:root {
-    --primary-color: #64ffda;      /* Accent color */
-    --secondary-color: #ccd6f6;    /* Secondary text */
-    --text-color: #8892b0;         /* Body text */
-    --dark-bg: #0a192f;            /* Background */
-    --light-bg: #112240;           /* Section backgrounds */
-}
-```
-
-### 6. Contact Information
-
-Update the contact section (lines 288-316):
-- Email address
-- Contact message text
-- Social media links
-
-## 🎨 Design Features
-
-- **Color Scheme**: Modern dark theme with cyan accent
-- **Typography**: Inter (body) and JetBrains Mono (monospace)
-- **Animations**: Smooth fade-in, typing effect, hover transitions
-- **Layout**: Clean grid-based responsive design
-- **Icons**: Font Awesome 6.4.0
-
-## 📱 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## 📄 License
-
-Feel free to use this portfolio template for your personal website. Attribution is appreciated but not required.
-
-## 🤝 Contributing
-
-Suggestions and improvements are welcome! Feel free to fork, modify, and use this template.
-
-## 📧 Support
-
-If you have any questions or need help customizing the portfolio, feel free to reach out!
+- Email: bryce.c.zimmerman@gmail.com
+- GitHub: [brycezimmerman5](https://github.com/brycezimmerman5)
+- LinkedIn: [Bryce Zimmerman](https://www.linkedin.com/in/bryce-zimmerman-664096278)
 
 ---
 
-**Made with ❤️ for the developer community**
-
+*Built with attention to detail and a focus on clean code.*
